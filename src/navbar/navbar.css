@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding: 15px 10px;
+    border-bottom: 1px solid crimson;
+}
+
+.navbar h1{
+    color: crimson;
+}
+
+.navbar .partLogo{
+    padding: 5px 10px;
+    background-color: crimson;
+    color: whitesmoke;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+}
+
+.navbar ul li{
+    font-size: 20px;
+    color: crimson;
+    cursor: pointer;
+    font-weight: 500;
+}

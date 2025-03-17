@@ -1,0 +1,27 @@
+.pays{
+    width: 175px;
+    box-shadow: 0 0 2px gray;
+    padding: 5px 2px;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px solid crimson;
+}
+
+.pays .pays-image{
+    width: 100%;
+    height: 25vh;
+    position: relative;
+}
+
+.pays-image img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pays h4{
+    margin-top: 5px;
+}
